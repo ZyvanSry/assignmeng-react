@@ -46,7 +46,7 @@ export default function Navbar() {
       </div>
 
       {/* Navbar */}
-      <nav className="navbar navbar-expand-sm position-fixed top-0 bg-nav rounded-5 z-3 w-75 me-to-left ">
+      <nav className="navbar navbar-expand-sm position-fixed top-0 bg-nav rounded-pill z-3 w-75 me-to-left ">
         <div className="container-fluid justify-content-end">
           {/* Hamburger button */}
           <button

@@ -1,7 +1,7 @@
 import { responsibilities } from "../data/responsibilities";
 export default function About() {
   return (
-    <section id="about" className="container py-5">
+    <section id="about" style={{ minHeight: "100vh" }} className="container py-5">
       {/* Section title */}
       <div className="d-flex justify-content-center p-5">
         <p className="rounded-5 about-title p-3">Who am I?</p>

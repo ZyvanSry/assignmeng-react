@@ -1,5 +1,4 @@
-section {
-  min-height: 100vh;      /* allows section to grow */
+section {     /* allows section to grow */
   scroll-margin-top: 100px;
   justify-content: center;
   align-items: center;
@@ -19,7 +18,7 @@ section {
       font-weight: 600;
       width: fit-content;
       padding: 10px;
-      border-radius: 12px;
+      border-radius: 20px;
       background-color: #bb78feff;
 
     }
@@ -32,7 +31,7 @@ section {
 }
 
 #about{
-  min-height: 100vh;
+  
   padding-top: 100px; /* navbar height */
   scroll-margin-top: 100px;
   margin-bottom: 20vh;
@@ -192,6 +191,10 @@ section {
 
 /* Mobile */
 @media (max-width: 576px) {
+  .width-form{
+    min-width:250px;
+    margin-left: -25%;
+  }
   .me-to-left{
     margin-left: 0px !important;
     

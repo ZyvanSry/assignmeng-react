@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section id="home" className="container-fluid">
+    <section id="home" style={{ minHeight: "100vh" }} className="container-fluid px-5">
       <div className="row align-items-center py-5 mt-5">
         <div className="col-lg-6 col-md-12 text-center text-lg-start px-3 py-5">
           <h1 className="display-3 fw-bold mb-3">Wassup, I'm Sry</h1>
@@ -10,7 +10,7 @@ export default function Home() {
             stunning and user-friendly websites.
           </p>
 
-          <div className="icon-item gap-4 d-flex justify-content-start">
+          <div className="icon-item gap-4 d-flex justify-content-center">
             <a
               href="https://github.com/ZyvanSry"
               className="btn btn-light btn-lg rounded-circle d-flex justify-content-center align-items-center"
