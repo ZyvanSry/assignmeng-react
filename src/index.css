@@ -192,20 +192,20 @@ section {     /* allows section to grow */
 /* Mobile */
 @media (max-width: 576px) {
   .width-form{
-    min-width:250px;
-    margin-left: -25%;
+    
+    
   }
   .me-to-left{
     margin-left: 0px !important;
-    
+    margin-right: 100px;
     margin-top: 0px !important;
   }
   .navbar {
-    width: 30% !important;
-    height: auto;
-    background-color: #f8f9fa;
-    margin-left: 90px !important;
-    margin-right: 10px !important;
+    width: 100vw !important;
+    
+    /* background-color: #f8f9fa; */
+    margin-left: 25% !important;
+    /* margin-right: 20% !important; */
     transition: all 0.3s ease;
     transform: translateX(0%);
     box-shadow:  0 0 #f8f9fa !important;
@@ -214,10 +214,9 @@ section {     /* allows section to grow */
   .navbar-collapse {
       
     position: fixed;
-    top: 110%;              /* below logo + navbar */
-    right: -9%;
-    
-    width: 98vw;
+    top: 100%;              /* below logo + navbar */
+    right:0vw;
+    width: 100vw;
     height: 28vh;            /* 🔥 HALF screen */
     background-color:  #f8f9fa;
     padding: 10px;
